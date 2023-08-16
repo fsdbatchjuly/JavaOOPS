@@ -1,0 +1,55 @@
+//Classes, Objects, Constructors
+
+1200000 - 216000
+984000
+
+
+[{
+ "firstName":"Ranveer",
+ "lastName":"Kapoor",	
+ "salaryPerYear":1200000,	
+ "gender":"M",	
+ "address":"Mumbai,India",
+ "officeLocation":"Hyerabad"
+},
+{
+ "firstName":"Pawan",
+ "lastName":"Kalyan",	
+ "salaryPerYear":1500000,	
+ "gender":"M",	
+ "address":"Vizag,AndhraPradesh",
+ "officeLocation":"Pune"
+}
+{
+ "firstName":"Yash",
+ "lastName":"Kumar",	
+ "salaryPerYear":3500000,	
+ "gender":"M",	
+ "address":"Bangalore,Karnataka",
+ "officeLocation":"Hyderabad"
+}
+{
+ "firstName":"Tamannah",
+ "lastName":"Bhatia",	
+ "salaryPerYear":2500000,	
+ "gender":"F",	
+ "address":"Bangalore,Karnataka",
+ "officeLocation":"Pune"
+}]
+
+
+Name : Full Name
+Gender : 
+Salary/Month : 
+Address :
+OfficeLocation :
+Salary take home :
+
+
+Employee PF : 9%
+Employer PF : 9%
+
+
+
+
+
