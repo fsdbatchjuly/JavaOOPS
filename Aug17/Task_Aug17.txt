@@ -1,0 +1,16 @@
+Capture at least 5 - 10 properties and create individual classes for each image
+1.BankForm
+2.GovtApplicationForm
+3.MatrimonyForm
+
+Apply Inheritence
+
+Creat a Bank application form details class,
+https://img.yumpu.com/52725915/1/500x640/application-form-for-internet-banking-for-individuals.jpg
+
+Creat a PAN application form details class,
+https://onlineservicess.in/wp-content/uploads/2020/09/apply-for-pan-card-step-1.jpg
+
+
+Creat a Matrimony application form details class
+https://aiemd.org/wp-content/uploads/2023/05/Court-Marriage-Form-PDF.jpg
