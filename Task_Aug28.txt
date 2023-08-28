@@ -1,0 +1,2 @@
+Create Student,Teacher,Employee class and create 10 students, 3 teachers, 2 employees.
+(Apply inheritance and each class must have at least 2 additional properties)
