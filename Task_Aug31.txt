@@ -1,0 +1,90 @@
+Create a class called Person
+
+
+[
+{
+	"name":"Mahesh",
+	"books":[
+				{"name":"God Of Small Things","writer":"Arundhati Roy","cost":1000},
+				{"name":"A Fine Balance by","writer":"Rohinton Mistry","cost":500},
+				{"name":"Shadow Lines","writer":"Amitav Gosh","cost":200},
+				{"name":"Midnight`s Children","writer":"Salman Rushdie","cost":1342}
+		   ],
+	"pets":[
+				{"name":"bunny","breed":"German shepherd","gender":"M","type":"dog"},
+				{"name":"jimmy","breed":"Dash","gender":"F","type":"dog"},
+				{"name":"skiny","breed":"British Shorthair","gender":"M","type":"cat"},
+				{"name":"snoopy","breed":"African","gender":"F","type":"fox"},
+
+			]
+
+},
+{
+	"name":"Khaja",
+"books":[
+				{"name":"God Of Small Things","writer":"Arundhati Roy","cost":1000},
+				{"name":"A Fine Balance by","writer":"Rohinton Mistry","cost":500},
+				{"name":"Shadow Lines","writer":"Amitav Gosh","cost":200},
+				{"name":"Midnight`s Children","writer":"Salman Rushdie","cost":1342}
+		   ],
+	"pets":[
+				{"name":"bunny","breed":"German shepherd","gender":"M","type":"dog"},
+				{"name":"jimmy","breed":"Dash","gender":"F","type":"dog"},
+				{"name":"skiny","breed":"British Shorthair","gender":"M","type":"cat"},
+				{"name":"snoopy","breed":"African","gender":"F","type":"fox"},
+
+			]
+
+},
+{
+	"name":"Kranthi",
+"books":[
+				{"name":"God Of Small Things","writer":"Arundhati Roy","cost":1000},
+				{"name":"A Fine Balance by","writer":"Rohinton Mistry","cost":500},
+				{"name":"Shadow Lines","writer":"Amitav Gosh","cost":200},
+				{"name":"Midnight`s Children","writer":"Salman Rushdie","cost":1342}
+		   ],
+	"pets":[
+				{"name":"bunny","breed":"German shepherd","gender":"M","type":"dog"},
+				{"name":"jimmy","breed":"Dash","gender":"F","type":"dog"},
+				{"name":"skiny","breed":"British Shorthair","gender":"M","type":"cat"},
+				{"name":"snoopy","breed":"African","gender":"F","type":"fox"},
+
+			]
+
+},
+{
+	"name":"SaiMungale",
+"books":[
+				{"name":"God Of Small Things","writer":"Arundhati Roy","cost":1000},
+				{"name":"A Fine Balance by","writer":"Rohinton Mistry","cost":500},
+				{"name":"Shadow Lines","writer":"Amitav Gosh","cost":200},
+				{"name":"Midnight`s Children","writer":"Salman Rushdie","cost":1342}
+		   ],
+	"pets":[
+				{"name":"bunny","breed":"German shepherd","gender":"M","type":"dog"},
+				{"name":"jimmy","breed":"Dash","gender":"F","type":"dog"},
+				{"name":"skiny","breed":"British Shorthair","gender":"M","type":"cat"},
+				{"name":"snoopy","breed":"African","gender":"F","type":"fox"},
+
+			]
+
+},
+{
+	"name":"Nagarjuna",
+"books":[
+				{"name":"God Of Small Things","writer":"Arundhati Roy","cost":1000},
+				{"name":"A Fine Balance by","writer":"Rohinton Mistry","cost":500},
+				{"name":"Shadow Lines","writer":"Amitav Gosh","cost":200},
+				{"name":"Midnight`s Children","writer":"Salman Rushdie","cost":1342}
+		   ],
+	"pets":[
+				{"name":"bunny","breed":"German shepherd","gender":"M","type":"dog"},
+				{"name":"jimmy","breed":"Dash","gender":"F","type":"dog"},
+				{"name":"skiny","breed":"British Shorthair","gender":"M","type":"cat"},
+				{"name":"snoopy","breed":"African","gender":"F","type":"fox"},
+
+			]
+
+}
+]
