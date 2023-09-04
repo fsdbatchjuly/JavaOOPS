@@ -1,0 +1,9 @@
+Clone the repository in the workspace Floder from Github Desktop
+
+Open Eclipse and create  project with the same repo Name(ProjectMobile)
+
+Create a branch on your name
+
+Push your task to your branch
+
+Abstraction
