@@ -1,0 +1,13 @@
+Create two cities with 4 hospitals, 4 police stations, 4 railway stations, 4 malls, 4 bustands, 4 colleges
+
+Create class for :
+Hospital
+Police station
+Railway station
+Mall
+Bustand
+College
+
+Each class must have least 6 properties
+Any no of Methods of your choice(Optional)
+
