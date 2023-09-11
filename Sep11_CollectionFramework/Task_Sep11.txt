@@ -1,0 +1,18 @@
+Use Array List Concept
+Take abbreviation from user and print the state name
+Output1:
+Enter the abbreviation to get the Full name of State
+AP
+AP is the abbreviation for Andhra Pradesh
+
+Output2:
+Enter the abbreviation to get the Full name of State
+ABC
+ABC is not found please try some other valid names from the below list
+
+
+https://slusi.dacnet.nic.in/watershedatlas/list_of_state_abbreviation.htm
+
+
+
+
