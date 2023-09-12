@@ -1,0 +1,29 @@
+Created your own data objets
+
+Refer data from excel sheet
+
+Refer data from Json
+
+Refer Data from DataBase
+
+Create Classes Based on your data
+
+Step1:
+MYSQL (DataBase)
+
+install mySQL in your system
+
+https://www.mysql.com/downloads/
+
+https://dev.mysql.com/downloads/installer/
+
+create password: remember
+
+Step2:
+MySQLWorkBench
+
+https://dev.mysql.com/downloads/workbench/
+
+Open MySQLWorkBench from programs
+
+
