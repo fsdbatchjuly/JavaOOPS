@@ -1,0 +1,19 @@
+Download & Install MySQL
+
+https://dev.mysql.com/downloads/mysql/
+
+Download & Install MySQL Workbench
+
+https://dev.mysql.com/downloads/workbench/
+
+Database contains tables->rows*colums which stores data
+
+Start MySQL Server (default port 3306)
+
+Open MySQL workbench
+
+Write Queries
+
+https://docs.google.com/spreadsheets/d/1dYS-tQPrEuzeP6kyZAQR0YsgJMGMfivXcgQA5nyFoTE/edit#gid=1944188845
+
+
