@@ -1,0 +1,14 @@
+create table, 
+insert into, 
+select
+
+
+Constraint
+unique
+not null
+
+Task
+CreateDB and tables student teacher and employee 
+
+
+
