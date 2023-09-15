@@ -1,0 +1,25 @@
+To add new column
+
+Alter table tableName
+
+UPDATE tableName
+SET column
+WHERE condition
+
+
+SELECT * tableName
+WHERE Condition (FeePaid, NotPaid)
+
+
+Create a Y4JDB
+Student Table
+Employee Table
+Faculty Table
+Course Table
+
+
+Ask for person age 
+Implement in try catch block using a while/do-while loop 
+
+
+
