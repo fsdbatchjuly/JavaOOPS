@@ -1,0 +1,13 @@
+Every customer must purchase a product 
+
+Query from the purchase table
+
+Output1:
+Name productsCount
+
+Output2:
+Name productName price
+
+
+
+
