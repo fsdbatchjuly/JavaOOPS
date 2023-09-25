@@ -1,0 +1,39 @@
+Display three options
+1.Diplay course details
+2.Add a new course
+3.Update existing course details
+
+1.Display all course details
+
+2.
+	Please enter Course name
+	Machine Learning
+	Please enter Course id
+	1
+	Please enter Course Short Form
+	ML
+	Course added successfully to the database
+
+	Display all the courses
+
+	duplicate course id 1 in data base please enter a different course id
+
+3. Choose course id want to update 
+	Display all courses
+
+	Let user to choose ID
+	
+	Please enter CourseName
+	NextJS
+	Please enter CousreShortForm
+	NS
+	Course updated successfully to the database
+
+	Display all the courses
+
+
+	
+
+
+
+
