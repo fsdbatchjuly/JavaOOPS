@@ -1,0 +1,14 @@
+Create a form with the below details
+
+Student Name
+Qualification
+Email
+Qualified Year
+Choose Course(drop down)
+Phone Number
+Address
+Gender(radio)
+Fees 
+Discount
+
+
