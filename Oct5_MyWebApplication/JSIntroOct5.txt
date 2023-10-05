@@ -1,0 +1,27 @@
+Java Coding
+	Installed Java
+	Installed Eclipse
+
+MySQL Coding
+	Installed SQL
+	Installed MySQL Work Bench	
+
+HTML Coding
+	TextEditior.html
+	Browser
+	Install VisualStudio Code
+
+CSS
+	TextEditor.css
+	Browser
+	Install VisualStudio Code
+
+JavaScript
+	TextEditor.js
+	Install nodeJS(https://nodejs.org/en/download)
+	Install VisualStudio Code
+	
+	
+	
+
+
