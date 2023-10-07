@@ -1,0 +1,7 @@
+
+
+Create two input fields and 4 buttons
+
+add,sub,mul,div,mod
+
+do arithematic operations and display the result

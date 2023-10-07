@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .design{
+            margin-left: 130px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <br><br>
+    <input placeholder="Enter Number 1" class="design" id="input1"></input>
+    <br><br><br>
+    <input placeholder="Enter Number 2" class="design" id="input2"></input>
+    <br><br><br>
+    <button class="design" onclick="additionOfNumbers()">
+        Click Me
+    </button>
+
+    <label id="displayLabel"> Addition is</label>
+    <script>
+        function additionOfNumbers(){
+            ele1 = document.getElementById("input1")
+            num1 = parseInt(ele1.value)
+
+            ele2 = document.getElementById("input2")
+            num2 =  parseInt(ele2.value)
+
+            sum = num1 + num2;
+
+            document.getElementById("displayLabel").innerHTML = sum;
+
+        }
+
+    </script>
+</body>
+
+</html>
+
