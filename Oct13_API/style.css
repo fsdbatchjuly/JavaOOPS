@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(190, 233, 234);
+}
+
+.registration-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:beige;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+h2{
+    text-align: center;
+    color: brown;
+}

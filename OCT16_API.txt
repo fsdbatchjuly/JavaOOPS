@@ -1,0 +1,27 @@
+
+
+http://localhost:8080/api/courses/getAllFaculty
+http://localhost:8080/api/courses/getAllCourses
+
+
+SAMPLE APIS SITE
+https://reqres.in/
+
+DOWNLOAD POSTMAN
+https://www.postman.com/downloads/
+
+
+
+GET : URL?para1=value1&para1=value2&para3=valu3.......
+QUERY PARAMETERS 
+
+
+POST : URL?para1=value1&para1=value2&para3=valu3.......
+
+para1:value1
+para2:value2
+.....
+PARAMETERS
+
+itunes
+https://www.apple.com/rss/
