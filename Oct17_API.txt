@@ -1,0 +1,17 @@
+
+
+Java Developer will create API
+
+REST API - Json Format
+SOAP API - XML 
+
+API Methods:
+GET,POST,PUT,DELETE
+
+Tool to Test API Postman
+ 
+Front-end developer do the API Integration 
+
+Spring Framework And Spring-boot Framework
+
+
