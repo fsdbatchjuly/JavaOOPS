@@ -16,6 +16,17 @@
     c.Controller (API) (@RestController,@RequestMapping("basePath"), @Autowired, @GetMapping("EndPoint"))
 
 
-    https://reqres.in/api
-            /users?page=2
-            /users
+->Application Main
+    SpringRun()
+->Controller    
+    @GetMapping("/courseList")
+    List<CourseModel> fetchCourseList(endpoints){}
+
+    @GetMapping("/facultyList")
+    fetchFacultyList(endpoints){}
+
+    @GetMapping("/studentsList")
+    fetchStundetsList(endpoints){}
+    
+-> Repository
+
