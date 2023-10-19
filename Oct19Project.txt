@@ -1,0 +1,59 @@
+DB
+	Product:
+		category_id(ForeignKey )
+		name
+		cost
+		discount
+		id(Primary Key)
+		product_url
+
+	Category
+		name
+		category_id(Primary Key)
+	
+	User
+		
+		id(ForeignKey)
+		name
+		email
+		phone_number
+		address
+		password
+		user_name
+		profile_url
+
+	Purchase
+		purchase_id(Primary Key)
+		product_id(ForeignKey)
+		user_id(ForeignKey)
+		
+		
+
+			
+JAVA  
+	Create User
+	Login User
+	Fetch Products
+	Purchase Products
+	Previous History Of User
+
+HTML 
+JS
+
+Login From
+https://w3layouts.com/wp-content/uploads/2017/07/basic_login_form_Free19-05-2017_1315571736.jpg
+
+SigunUp Form
+https://w3layouts.com/wp-content/uploads/2017/07/basic_login_form_Free19-05-2017_1315571736.jpg
+
+Show Products List
+https://www.abtasty.com/wp-content/uploads/faceted-search-ecommerce-result-page-955x1024.jpg
+
+Cart View
+https://www.tipsandtricks-hq.com/ecommerce/wp-content/uploads/2014/07/shopping-cart-with-product-image-thumbnail.png
+	
+
+
+
+
+
