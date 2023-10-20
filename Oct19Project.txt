@@ -1,53 +1,67 @@
+https://docs.google.com/spreadsheets/d/17j6PSW_77Ir6Idu1kEd3HrP9fQwJWAhwug7U4vI42bA/edit?usp=sharing
+
+
 DB
 	Product:
-		category_id(ForeignKey )
+		category_id(ForeignKey)
 		name
 		cost
 		discount
-		id(Primary Key)
-		product_url
+		id(Primary Key Auto_Incremet)
+		product_Image_url
 
 	Category
 		name
-		category_id(Primary Key)
+		category_id(Primary Key , Auto_Incremet)
 	
 	User
 		
-		id(ForeignKey)
+		id(Primary Key, Auto_Increment)
 		name
 		email
+		gender
+		age
 		phone_number
 		address
 		password
 		user_name
-		profile_url
+		profile_image_url
 
 	Purchase
-		purchase_id(Primary Key)
+		purchase_id(Primary Key, Auto_Incremet)
 		product_id(ForeignKey)
 		user_id(ForeignKey)
-		
-		
 
-			
+20-10-2023 Friday
+24-10-2023 Tuesday
+Total 5 Days
+Add 5 Categories
+20 Products for each Category = 5*20 = 100 Products
+Create 5 users
+Make 25 Purchases
+
+
+	
 JAVA  
-	Create User
-	Login User
-	Fetch Products
-	Purchase Products
-	Previous History Of User
+	Fetch Products (25-10-2023)
+	Create User(31-10-2023)
+	Login User(30-10-2023)
+	Purchase Products()
+	Previous History Of User()
+
 
 HTML 
 JS
 
-Login From
-https://w3layouts.com/wp-content/uploads/2017/07/basic_login_form_Free19-05-2017_1315571736.jpg
-
-SigunUp Form
-https://w3layouts.com/wp-content/uploads/2017/07/basic_login_form_Free19-05-2017_1315571736.jpg
-
-Show Products List
+Show Products List (26-10-2023
+			27-10-2023)
 https://www.abtasty.com/wp-content/uploads/faceted-search-ecommerce-result-page-955x1024.jpg
+
+Login From(30-10-2023)
+https://w3layouts.com/wp-content/uploads/2017/07/basic_login_form_Free19-05-2017_1315571736.jpg
+
+SigunUp Form(31-10-2023)
+https://w3layouts.com/wp-content/uploads/2017/07/basic_login_form_Free19-05-2017_1315571736.jpg
 
 Cart View
 https://www.tipsandtricks-hq.com/ecommerce/wp-content/uploads/2014/07/shopping-cart-with-product-image-thumbnail.png
