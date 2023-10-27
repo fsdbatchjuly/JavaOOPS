@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <style>
+        h1{
+            color: rgb(30, 74, 112);
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: antiquewhite;
+        }
+        .login-form {
+            background-color: rgb(194, 207, 234);
+            width: 300px;
+            text-align: center;
+        }
+        .login-form-form label {
+            display: block;
+            margin-top: 10px;
+        }
+        .login-form input {
+            width: 80%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form button {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 80%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h1>Flazon Login</h1>
+        <form action="your-server-endpoint.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Login</button>
+
+            <label onclick="moveToRegistration()">Registration</label>
+        </form>
+    </div>
+
+    <script>
+        function moveToRegistration(){
+            window.location.href = "flazon_user_rgistration.html"
+        }
+    </script>
+</body>
+</html>
