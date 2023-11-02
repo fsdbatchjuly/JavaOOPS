@@ -72,12 +72,29 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
             <br>
-            <button type="submit" onclick="moveToLogin()">Sign Up</button>
+            <button type="submit" onclick="captureSignUpFormDetails()">Sign Up</button>
         </form>
     </div>
     <script> 
         function moveToLogin(){
             window.location.href = "flazon_login.html"
+        }
+
+        function captureSignUpFormDetails(){
+            emailFiled = document.getElementById('email');
+            addressFiled = document.getElementById('address');
+            phoneField = document.getElementById('phone');
+            ageField = document.getElementById('age');
+            genderField = document.getElementById('gender');
+            passwordField = document.getElementById('password');
+
+            console.log(emailFiled.value);
+            console.log(addressFiled.value);
+            console.log(phoneField.value);
+            console.log(ageField.value);
+            console.log(genderField.value);
+            console.log(passwordField.value);
+            
         }
     
     </script>

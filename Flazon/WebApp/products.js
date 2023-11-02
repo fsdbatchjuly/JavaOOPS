@@ -46,4 +46,13 @@ fetch("http://localhost:8080/flazon_db/productsList")
 
             gridElement.appendChild(divEle)
         }
+        
     }
+
+    function moveTologin(){
+        document.location.href='flazon_login.html'
+    }
+
+   
+
+   
