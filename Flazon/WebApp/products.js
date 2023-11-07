@@ -24,6 +24,8 @@ fetch("http://localhost:8080/flazon_db/productsList")
         gridElement = document.getElementById("product-grid")
         for(let i=0;i<data.length;i++){
             divEle = document.createElement("div")
+            divEle.id = data[i].id
+            console.log("Assssign Element ID",divEle.id)
 
             imgEle = document.createElement("img")
             imgEle.src = data[i].product_Image_url; 
@@ -45,6 +47,14 @@ fetch("http://localhost:8080/flazon_db/productsList")
             divEle.appendChild(p2)
 
             gridElement.appendChild(divEle)
+
+            divEle.addEventListener('click', function(event) {
+                clickedId = this.id;
+                console.log("Clicked Element ID",clickedId)
+                document.location.href='product_details.html?productId=' + clickedId
+                   
+            });
+    
         }
         
     }
@@ -52,6 +62,7 @@ fetch("http://localhost:8080/flazon_db/productsList")
     function moveTologin(){
         document.location.href='flazon_login.html'
     }
+    
 
    
 

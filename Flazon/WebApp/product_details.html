@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        header {
+            background-color: rgb(30, 74, 112);
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="text-align: center;">Flazon</h1>
+        <div class="user-options">
+            <!-- User Options Here -->
+        </div>
+        <input type="text" class="search-bar" placeholder="Search...">
+        <button class="login-button" onclick="moveTologin()">Login</button>
+    </header>
+    <div class="content">
+
+        <img id="image"src="">
+
+        <div>
+            <label>Name:</label><label id="name">Product Name</label>
+        </div>
+        <div>
+            <label>Cost:</label><label id="cost">Cost</label>
+        </div>
+        <div>
+            <label>Category:</label><label id="category">Category</label>
+        </div>
+        <div>
+            <label>Discount:</label><label id="discount">%</label>
+        </div>
+
+    </div>
+
+    <script src="productDetails.js"></script>
+</body>
+
+
+</html>
