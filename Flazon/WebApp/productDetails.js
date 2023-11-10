@@ -1,9 +1,15 @@
 
+if(!window.cartArray != undefined){
+    window.cartArray = []
+}
+let productInfo;
 getIdFromURL()
 
 function getIdFromURL() {
     const urlParams = new URLSearchParams(window.location.search);    
     valueFromURL = urlParams.get('productId')
+    cost = urlParams.get('cost')
+    productName = urlParams.get('pName')
     url = "http://localhost:8080/flazon_db/productsList/" + valueFromURL
     fetch(url)
         .then(response => {
@@ -13,16 +19,15 @@ function getIdFromURL() {
             return response.json();
         })
         .then(data => {
-            console.log(data)
             formDetailUI(data);
         })
         .catch(error => {
-            console.log(error)
         })
 }
 
 
 function formDetailUI(data) {
+    productInfo = data
     imgElement = document.getElementById("image")
     imgElement.src = data.product_Image_url;
 
@@ -35,4 +40,12 @@ function formDetailUI(data) {
     discountElement = document.getElementById("discount")
     discountElement.innerHTML = data.discount + "%"
 
+}
+
+function cartItems(){
+    window.cartArray.push(productInfo)
+    for (let index = 0; index < window.cartArray.length; index++) {
+        console.log("Product Added to cart ",window.cartArray[index].name)
+        
+    }
 }

@@ -13,7 +13,10 @@
         }
         .content{
             text-align: center;
+            display: flex;
         }
+
+
     </style>
 </head>
 
@@ -25,25 +28,30 @@
             <!-- User Options Here -->
         </div>
         <input type="text" class="search-bar" placeholder="Search...">
+       <a href="cart_view.html"> <img src="https://png.pngtree.com/element_our/20190531/ourmid/pngtree-shopping-cart-convenient-icon-image_1287807.jpg" height="40px" width="40px"></a>
         <button class="login-button" onclick="moveTologin()">Login</button>
     </header>
-    <div class="content">
+    <div class="content" >
+        
+        <img id="image"src="" width="400px" height="400px" style="margin-left: 40px;">
 
-        <img id="image"src="">
-
-        <div>
-            <label>Name:</label><label id="name">Product Name</label>
-        </div>
-        <div>
-            <label>Cost:</label><label id="cost">Cost</label>
-        </div>
-        <div>
-            <label>Category:</label><label id="category">Category</label>
-        </div>
-        <div>
-            <label>Discount:</label><label id="discount">%</label>
-        </div>
-
+        <div style="margin-top: 100px;">
+            <div>
+                <label>Name:</label><label id="name">Product Name</label>
+            </div>
+            <div>
+                <label>Cost:</label><label id="cost">Cost</label>
+            </div>
+            <div>
+                <label>Category:</label><label id="category">Category</label>
+            </div>
+            <div>
+                <label>Discount:</label><label id="discount">%</label>
+            </div>
+        </div>        
+    </div>
+    <div style="text-align: center;">
+    <button style="background-color: blanchedalmond;" onclick="cartItems()">Add to Cart </button>
     </div>
 
     <script src="productDetails.js"></script>

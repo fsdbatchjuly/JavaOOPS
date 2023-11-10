@@ -1,3 +1,5 @@
+
+
 fetch("http://localhost:8080/flazon_db/productsList")
     .then(response=>{
         if(!response.ok){
@@ -6,11 +8,9 @@ fetch("http://localhost:8080/flazon_db/productsList")
         return response.json();
     })
     .then(data=>{
-        console.log(data)
         createProductsGrid(data);
     })
     .catch(error=>{
-        console.log(error)
     })
 
     function createProductsGrid(data){
@@ -25,7 +25,6 @@ fetch("http://localhost:8080/flazon_db/productsList")
         for(let i=0;i<data.length;i++){
             divEle = document.createElement("div")
             divEle.id = data[i].id
-            console.log("Assssign Element ID",divEle.id)
 
             imgEle = document.createElement("img")
             imgEle.src = data[i].product_Image_url; 
@@ -50,8 +49,9 @@ fetch("http://localhost:8080/flazon_db/productsList")
 
             divEle.addEventListener('click', function(event) {
                 clickedId = this.id;
-                console.log("Clicked Element ID",clickedId)
-                document.location.href='product_details.html?productId=' + clickedId
+                proName = data[this.id-1].name
+                cost = data[this.id-1].cost
+                document.location.href='product_details.html?productId=' + clickedId+'&pName='+proName+'&cost='+cost
                    
             });
     
