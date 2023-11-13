@@ -1,4 +1,24 @@
 
+console.log(localStorage.getItem("40043"))
+if(localStorage.getItem("40043") == null){
+    localStorage.setItem("40043","Kranthi")
+}
+console.log(localStorage.getItem("40043"))
+
+console.log(localStorage.getItem("totalStudents"))
+if(localStorage.getItem("totalStudents") == null){
+    localStorage.setItem("totalStudents",2)
+}
+
+let obj = {rollNO:"40043",name:"Kranthi",email:"kra#gmail.com"}
+
+if(localStorage.getItem("student") == null){
+    localStorage.setItem("student",JSON.stringify(obj))
+}
+let arr = [obj,obj,obj,obj];
+if(localStorage.getItem("people") == null){
+    localStorage.setItem("people", JSON.stringify(arr))
+}
 
 fetch("http://localhost:8080/flazon_db/productsList")
     .then(response=>{

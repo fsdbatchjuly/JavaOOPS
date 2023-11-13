@@ -42,10 +42,17 @@ function formDetailUI(data) {
 
 }
 
-function cartItems(){
-    window.cartArray.push(productInfo)
-    for (let index = 0; index < window.cartArray.length; index++) {
-        console.log("Product Added to cart ",window.cartArray[index].name)
-        
+function addItemtoCart(){    
+    //we are getting items List from local storage
+    let cartItems =  JSON.parse(localStorage.getItem("cartItems"))    
+
+    //If Items List is null
+    if(cartItems == null){
+        let arr = [productInfo];
+        //Create Items List and save in local storage
+        localStorage.setItem("cartItems",JSON.stringify(arr))
+    }else{
+        cartItems.push(productInfo)
+        localStorage.setItem("cartItems",JSON.stringify(cartItems))
     }
 }
