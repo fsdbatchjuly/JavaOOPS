@@ -68,10 +68,8 @@ fetch("http://localhost:8080/flazon_db/productsList")
             gridElement.appendChild(divEle)
 
             divEle.addEventListener('click', function(event) {
-                clickedId = this.id;
-                proName = data[this.id-1].name
-                cost = data[this.id-1].cost
-                document.location.href='product_details.html?productId=' + clickedId+'&pName='+proName+'&cost='+cost
+                clickedId = this.id;                
+                document.location.href='product_details.html?productId=' + clickedId
                 
             });
     

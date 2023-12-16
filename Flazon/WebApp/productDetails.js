@@ -8,8 +8,6 @@ getIdFromURL()
 function getIdFromURL() {
     const urlParams = new URLSearchParams(window.location.search);    
     valueFromURL = urlParams.get('productId')
-    cost = urlParams.get('cost')
-    productName = urlParams.get('pName')
     url = "http://localhost:8080/flazon_db/productsList/" + valueFromURL
     fetch(url)
         .then(response => {

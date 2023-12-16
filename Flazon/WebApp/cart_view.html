@@ -15,21 +15,9 @@
     </style>
 </head>
 
-<body>
-    <header>
-        <h1 style="text-align: center;">Flazon</h1>
-        <div class="user-options">
-            <!-- User Options Here -->
-        </div>
-        <input type="text" class="search-bar" placeholder="Search...">
-        <img src="https://png.pngtree.com/element_our/20190531/ourmid/pngtree-shopping-cart-convenient-icon-image_1287807.jpg"
-            height="40px" width="40px">
-        <button class="login-button" onclick="moveTologin()">Login</button>
-    </header>
-
-    <div class="cart-items"  id="cart-list" style="display: grid; grid-template-columns: 1fr; border-color: aqua; border-width: 1px;" >        
-        
-    </div>
+<body onload="showAlert()">
+    <h2 id="heading_new">Java Class</h2>
+    <input type="button" value="Click Me" onclick="changeTitle()">
     <script src="cart-view.js"></script>
 </body>
 

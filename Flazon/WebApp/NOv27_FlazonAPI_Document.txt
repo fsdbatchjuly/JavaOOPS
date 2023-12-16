@@ -1,0 +1,31 @@
+
+
+
+callAPI("abc",)
+function callAPI(name, email,age,gender){
+var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "name": name,
+  "email": email,
+  "gender": gender,
+  "age": age,
+  "password": ,
+  "user_name": ,
+  "phone_number": ,
+  "address": 
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+};
+
+fetch("http://localhost:8080/flazon_db/create", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+
+}
